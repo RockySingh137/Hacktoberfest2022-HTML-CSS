@@ -8,7 +8,7 @@
 .hero {
     height: 100%;
     width: 100%;
-   background-color: #999;
+    background-color: #999;
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -18,7 +18,7 @@
     width: 380px;
     height: 480px;
     position: relative;
-    margin: 6% auto;
+    margin: 6% auto 2% auto;
     background: #fff;
     overflow: hidden;
 }
@@ -103,4 +103,18 @@ span {
 
 #register {
     left: 450px;
+}
+
+#social-media{
+    display: flex;
+    justify-content: center;
+}
+#social-media>a{
+    margin: auto 2%;
+    font-size: 140%;
+    color: rgb(53, 53, 53);
+    transition: 200ms;
+}
+#social-media>a:hover{
+    scale: 120%;
 }
