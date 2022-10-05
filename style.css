@@ -8,20 +8,22 @@
 .hero {
     height: 100%;
     width: 100%;
-   background-color: #999;
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
     background-position: center;
     background-size: cover;
     position: absolute;
-}
+}  
 
 .form-box {
     width: 380px;
     height: 480px;
     position: relative;
     margin: 6% auto;
-    background: #fff;
+    background: rgba(13, 224, 213, 0.863);
     overflow: hidden;
+    border-radius: 5%;
 }
+
 
 .button-box {
     width: 220px;
@@ -100,7 +102,6 @@ span {
 #login {
     left: 50px;
 }
-
 #register {
     left: 450px;
 }
@@ -116,4 +117,7 @@ span {
     box-shadow: 0 0 20px 0 #7f7f7f3d;
     cursor: pointer;
     border-radius: 50%;
+}
+.submit-btn:hover{
+    background: linear-gradient(to right, #1020ff, #a406ff);
 }
