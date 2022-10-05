@@ -133,30 +133,7 @@ For your PR to count it must be:
 
 ---
 
-## Contributors
 
-<a href="https://github.com/SR-Sunny-Raj/Hacktoberfest2022-for-all/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SR-Sunny-Raj/Hacktoberfest2022-for-all" />
-</a>
-
----
-
-### Connect with me
-
-<p>
-<a href="https://linkedin.com/in/sunnyraj2424">
-  <img align="left" alt="Sunny's LinkdeIn" width="3%" style="margin:10px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a>  
-    
-<a href="https://instagram.com/___sunny___raj___">
-  <img align="left" alt="Sunny's Instagram" width="3%" style="margin:10px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
-</a>
-    
-<a href="https://twitter.com/@sunnyrajsunny3">
-  <img align="left" alt="Sunny's Twitter" width="3%"  style="margin:10px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>&ensp;&ensp;&ensp;
-</p>
-<br>
 
 ---
 
