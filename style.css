@@ -104,4 +104,16 @@ span {
 #register {
     left: 450px;
 }
+.social-icons {
+    margin: 30px auto;
+    text-align: center;
 
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
