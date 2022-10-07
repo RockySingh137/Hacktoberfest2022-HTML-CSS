@@ -96,7 +96,12 @@ span {
     position: absolute;
 
 }
-
+@media screen and (max-width: 300px) {
+  .input-group,.submit-btn, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
 #login {
     left: 50px;
 }
@@ -118,4 +123,3 @@ span {
 #social-media>a:hover{
     scale: 120%;
 }
-
