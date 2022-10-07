@@ -38,6 +38,7 @@
     border: 0;
     outline: 0;
     position: relative;
+    margin-left:4%;
 }
 
 #btn {
@@ -111,8 +112,8 @@ span {
 }
 #social-media>a{
     margin: auto 2%;
-    font-size: 140%;
-    color: rgb(53, 53, 53);
+    font-size: 200%;
+    color: red;
     transition: 200ms;
 }
 #social-media>a:hover{
