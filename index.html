@@ -14,14 +14,14 @@
     <div class="hero">
         <div class="form-box">
             <div class="button-box">
-                <div id="btn"></div>
+                <div id="btn" class="btn"></div>
                 <button class="toggle-btn" onclick="login()">Login</button>
                 <button class="toggle-btn" onclick="register()">Register</button>
             </div>
              
             <form id="login" class="input-group">
-                <input type="text" class="input-id" placeholder="User Id" required>
-                <input type="text" class="input-id" placeholder="Enter Password" required>
+                <div class="col-25"><input type="text" class="input-id" placeholder="User Id" required></div>
+                <div class="col-75"><input type="text" class="input-id" placeholder="Enter Password" required></div>
                 <input type="checkbox" class="check-box"><span>Remember Password</span>
                 <button type="submit" class="submit-btn">Login</button>
             </form>
@@ -39,6 +39,7 @@
             <a href="#" class="github"><i class="fa-brands fa-github"></i></a>            
         </div>
     </div>
+    
     <script>
         var x = document.getElementById("login");
         var y = document.getElementById("register");
