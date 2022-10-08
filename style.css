@@ -5,6 +5,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
 .hero {
     height: 100%;
     width: 100%;
@@ -16,11 +17,14 @@
 
 .form-box {
     width: 380px;
-    height: 480px;
+    height: 463px;
     position: relative;
     margin: 6% auto 2% auto;
     background: #fff;
     overflow: hidden;
+    border-left: 7px dotted #387d99;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .button-box {
@@ -110,9 +114,16 @@ span {
     left: 450px;
 }
 
-#social-media{
+#social-media {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    width: 502px;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 37px;
+    text-align: center;
 }
 #social-media>a{
     margin: auto 2%;
@@ -122,4 +133,8 @@ span {
 }
 #social-media>a:hover{
     scale: 120%;
+}
+
+#copyrt{
+    text-align: center;
 }
