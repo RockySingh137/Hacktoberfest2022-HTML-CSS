@@ -40,11 +40,16 @@
             <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
             <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
         </div>
+        <div id ="copyright">
+            <h5 id = "copyrt"></h5>
+        </div>
     </div>
     <script>
+        var w = document.getElementById("copyrt");
         var x = document.getElementById("login");
         var y = document.getElementById("register");
         var z = document.getElementById("btn");
+        
         function register() {
             x.style.left = "-400px";
             y.style.left = "50px";
@@ -57,6 +62,11 @@
             z.style.left = "0px";
 
         }
+
+
+        var s = new Date();
+        var z = s.getFullYear();
+        w.innerHTML = "Copyright " + z + ". All rights reserved."
     </script>
 </body>
 
