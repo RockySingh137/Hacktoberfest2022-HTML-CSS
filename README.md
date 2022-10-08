@@ -143,8 +143,27 @@ if (isAwesome) {
   starThisRepository();
 }
 ```
-
 ---
+
+## Firebase Authentication 
+
+# Steps
+1. Go to console.firebase.google.com
+2. Create a project.
+3. After creating project this screen will appear.
+[alt text](firebaseImg1.png)
+4. Click on marked item i.e web.
+5. Creata app and follow the steps given.
+6. Copy initialization code in and paste it in javascript file.
+7. On the left menu go to build > authentication > get started 
+8. Now click on emal/password and enable it.  
+9. Now go to https://firebase.google.com/docs/auth/web/start#web-version-9 and copy the code given for sign up new users
+10. A little below on this link you will also get sign in users code
+11. Copy both codes and paste sign in code on signIn function and signUp code in signUp function
+12. Now when a user sign in or sign it will be authenticated and will show on authentication section in firebase.
+
+
+
 
 ```javascript
 
