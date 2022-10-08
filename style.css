@@ -24,26 +24,20 @@
     overflow: hidden;
    
 }
-
+  /* reponsiveness */
  @media screen and (max-width: 700px){
     
     .form-box{
+      
         width: 92%;
     }
-    .input-group{
+    .input-group
+    {
         font-size: small;
     }
 } 
 
-/* @media screen and (min-width: 350px){
-    .form-box{
-        position:sticky;
-        margin: 30% auto 3% auto;
-        height: 500px;
-       
-        
-    }
-} */
+
 .button-box {
     width: 220px;
     margin: 35px auto;
@@ -118,7 +112,12 @@ span {
     position: absolute;
 
 }
-
+@media screen and (max-width: 300px) {
+  .input-group,.submit-btn, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
 #login {
     left: 50px;
 }
@@ -140,4 +139,3 @@ span {
 #social-media>a:hover{
     scale: 120%;
 }
-
