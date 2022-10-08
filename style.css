@@ -24,11 +24,12 @@
     overflow: hidden;
    
 }
-  /* reponsiveness */
+
+
+/* reponsiveness */
  @media screen and (max-width: 700px){
     
-    .form-box{
-      
+    .form-box{    
         width: 92%;
     }
     .input-group
