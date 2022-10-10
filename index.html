@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <script src="https://kit.fontawesome.com/59052dbbdd.js" crossorigin="anonymous"></script>
 </head>
 
@@ -21,16 +23,26 @@
 
             <form id="login" class="input-group">
                 <input type="text" class="input-id" placeholder="User Id" required>
-                <input type="password" class="input-id" placeholder="Enter Password" required>
+                <div class="flex">
+                <input type="password" class="input-id" id="txtPassword" name="txtPassword" placeholder="Enter Password" required>
+                <button type="button" id="btnToggle" class="toggle">
+                    <i id="eyeIcon" class="fa-solid fa-eye"></i>
+                </button>
+            </div>
                 <input type="checkbox" class="check-box"><span>Remember Password</span>
-                <button type="submit" class="submit-btn">Login</button>
+                <button type="submit" class="submit-btn bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 ">Login</button>
             </form>
             <form id="register" class="input-group">
                 <input type="text" class="input-id" placeholder="User Id" required>
                 <input type="email" class="input-id" placeholder="Email Id" required>
-                <input type="password" class="input-id" placeholder="Enter Password" required>
+                <div class="flex">
+                <input type="password" class="input-id" id="txtPassword1" name="txtPassword1" placeholder="Enter Password" required>
+                <button type="button" id="btnToggle1" class="toggle1">
+                    <i id="eyeIcon1" class="fa-solid fa-eye"></i>
+                </button>
+            </div>
                 <input type="checkbox" class="check-box"><span>I agreed to the terms and conditions</span>
-                <button type="submit" class="submit-btn">Register</button>
+                <button type="submit"  class="submit-btn bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 ">Register</button>
             </form>
         </div>
         <div id="social-media">
@@ -41,6 +53,8 @@
             <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
         </div>
     </div>
+    <script src="login.js"></script>
+    <script src="register.js"></script>
     <script>
         var x = document.getElementById("login");
         var y = document.getElementById("register");
@@ -58,6 +72,8 @@
 
         }
     </script>
+    
+
 </body>
 
 </html>
