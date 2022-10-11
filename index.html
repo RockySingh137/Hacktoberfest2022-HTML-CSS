@@ -11,36 +11,41 @@
 </head>
 
 <body>
-    <div class="hero">
-        <div class="form-box">
-            <div class="button-box">
-                <div id="btn"></div>
-                <button class="toggle-btn" onclick="login()">Login</button>
-                <button class="toggle-btn" onclick="register()">Register</button>
-            </div>
+    <header>
+        <nav id="social-media">
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+           <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+           <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
+           <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button class="toggle-btn" onclick="login()">Login</button>
+                    <button class="toggle-btn" onclick="register()">Register</button>
+                </div>
 
-            <form id="login" class="input-group">
-                <input type="text" class="input-id" placeholder="User Id" required>
-                <input type="password" class="input-id" placeholder="Enter Password" required>
-                <input type="checkbox" class="check-box"><span>Remember Password</span>
-                <button type="submit" class="submit-btn">Login</button>
-            </form>
-            <form id="register" class="input-group">
-                <input type="text" class="input-id" placeholder="User Id" required>
-                <input type="email" class="input-id" placeholder="Email Id" required>
-                <input type="password" class="input-id" placeholder="Enter Password" required>
-                <input type="checkbox" class="check-box"><span>I agreed to the terms and conditions</span>
-                <button type="submit" class="submit-btn">Register</button>
-            </form>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-id" placeholder="User Id" required>
+                    <input type="password" class="input-id" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-id" placeholder="User Id" required>
+                    <input type="email" class="input-id" placeholder="Email Id" required>
+                    <input type="password" class="input-id" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>I agreed to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
         </div>
-        <div id="social-media">
-             <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
-            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-    </div>
+    </main>
+    
     <script>
         var x = document.getElementById("login");
         var y = document.getElementById("register");

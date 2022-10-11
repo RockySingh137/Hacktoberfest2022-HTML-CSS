@@ -1,17 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.hero {
-    height: 100%;
-    width: 100%;
+body {
+    min-height: 100vh;
+    overflow: hidden;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(banner.jpg);
-    background-position: center;
     background-size: cover;
-    position: absolute;
+}
+
+header {
+    padding: 15px;
+}
+
+#social-media{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#social-media>a{
+    margin: auto 1%;
+    font-size: 140%;
+    color: #fff;
+    transition: 200ms;
+}
+#social-media>a:hover{
+    scale: 120%;
 }
 
 .form-box {
@@ -21,6 +39,7 @@
     margin: 6% auto 2% auto;
     background: #fff;
     overflow: hidden;
+    bottom: 40px;
 }
 
 .button-box {
@@ -108,18 +127,4 @@ span {
 
 #register {
     left: 450px;
-}
-
-#social-media{
-    display: flex;
-    justify-content: center;
-}
-#social-media>a{
-    margin: auto 2%;
-    font-size: 140%;
-    color: rgb(53, 53, 53);
-    transition: 200ms;
-}
-#social-media>a:hover{
-    scale: 120%;
 }
