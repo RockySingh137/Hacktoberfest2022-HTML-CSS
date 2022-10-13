@@ -3,9 +3,50 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 100px;
+    background-image: linear-gradient(#033747,#012733);
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
 body {
     min-height: 100vh;
     overflow: hidden;
@@ -13,11 +54,9 @@ body {
     background-size: cover;
 }
 
-header {
-    padding: 15px;
-}
 
 #social-media{
+    margin-top: 10pxs;
     display: flex;
     justify-content: right;
     align-items: center;
