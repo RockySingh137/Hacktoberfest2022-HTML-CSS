@@ -128,3 +128,17 @@ span {
 #register {
     left: 450px;
 }
+
+/* Here is my work */
+@media screen and (max-width: 400px){
+    body{
+        background-size: inherit;
+    }
+    .form-box{
+        margin-top: 20%;
+    }
+    header nav#social-media a{
+        padding: 1%;
+        margin: 0 2%;
+    }
+}
