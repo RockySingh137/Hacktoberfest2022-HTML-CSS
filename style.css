@@ -65,7 +65,7 @@ header {
     position: absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #33B5FF ,#088F8F);
     border-radius: 30px;
     transition: 0.5s;
 
@@ -98,7 +98,7 @@ header {
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #33B5FF ,#088F8F);
     border: 0;
     outline: none;
     border-radius: 30px;
